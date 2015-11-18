@@ -1,0 +1,5 @@
+Cat Cena - 4 Hearts, starts with 5 Light Cards
+Fat Cena - 6 Hearts, starts with 3 Heavy Cards
+Queen Cena - 5 Hearts, starts with 4 Medium Cards
+Rocker Cena - 5 Hearts, starts with 2 Heavy and 2 Medium Cards
+My Little Cena - 4 Hearts, starts with 3 Light and 2 Medium

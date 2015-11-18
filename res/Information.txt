@@ -1,0 +1,27 @@
+6 Player Cards
+15 Max Rooms / Player
+    Rooms can be: Loot, Monster, Shop, Empty, Arena, Sacrifice
+    Distribution: 5/15   5/15    1/15   2/15   1/15    1/15
+4 Total Players = 4 * 15 Room Cards - > 20 Loot, 20 Monster, 8 Empty, 4 Shops, 4 Arena, 4 Sacrifice
+
+Monster Rooms:
+There are 20 Monster cards and they can have 1-4 enemies.
+Enemy Number: 1 enemy:40%; 2 enemies:30%; 3 enemies: 20%   4 enemies: 10%
+Distribution:   8            6               4                2
+
+Loot Rooms:
+There are 20 Loot Rooms and they can have 1-4 cards or items
+-same as monster rooms. 
+
+Empty Rooms:
+There are 8 Empty Rooms
+
+Shop Rooms:
+There are 4 Shop Rooms  
+
+Monster Cards:
+10% Special         20% Heavy Monsters    30% Medium         40% Light
+6 Special Monsters, 12 Heavy Monsters, 18 Medium Monsters, 24 Light Monsters
+
+Attack Cards:
+-same as monster cards
