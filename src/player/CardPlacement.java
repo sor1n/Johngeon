@@ -15,12 +15,12 @@ public class CardPlacement
     public void setSelectedCard(Card s)
     {
         if(s.getType().equals(CardType.ROOM) && s != null)
-            selectedCard = new RoomCard(s.getName(), s.getType()).setEntrances(((RoomCard)s).getEntrances());
+            selectedCard = new RoomCard(s.getName(), s.getDeck(), s.getType()).setEntrances(((RoomCard)s).getEntrances());
     }
 
     public void setCard(int x, int y)
     {
-        selectedCard.setPosition(x, y);
+        selectedCard.setPosition(x - Game.camera.getX(), y - Game.camera.getY());
         Game.placedCards.add(selectedCard);
     }
 }

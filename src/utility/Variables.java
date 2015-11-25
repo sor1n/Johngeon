@@ -9,5 +9,5 @@ public class Variables
 {
     public static int roomsDeckX = Main.mainProgram.getWidth() - 165 - 20;
     public static int roomsDeckY = (Main.mainProgram.getHeight() - 250)/2;
-    public static int cardY = 250, cardX = 165;
+    public static int cardY = 245, cardX = 158;
 }

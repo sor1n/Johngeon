@@ -23,24 +23,24 @@ public class Camera
         this.y = y;
     }
 
-    public int incX()
+    public int incX(int i)
     {
-        return x++;
+        return x+=i;
     }
 
-    public int incY()
+    public int incY(int i)
     {
-        return y++;
+        return y+=i;
     }
 
-    public int decX()
+    public int decX(int i)
     {
-        return x--;
+        return x-=i;
     }
 
-    public int decY()
+    public int decY(int i)
     {
-        return y--;
+        return y-=i;
     }
 
     public void setFocus(int x, int y)

@@ -1,7 +1,6 @@
 package cards;
 
 import main.Game;
-import main.Main;
 import utility.CardType;
 import utility.Variables;
 
@@ -24,7 +23,7 @@ public abstract class Card {
         setDeck(deck);
         setName(name);
         setType(type);
-        if (deck == "room") setPosition(Variables.roomsDeckX + 9, Variables.roomsDeckY - 4);
+        if (deck == "room") setPosition(Variables.roomsDeckX, Variables.roomsDeckY);
         else setPosition(0, 0);
         image = new ImageIcon(getClass().getClassLoader().getResource(type.name().toLowerCase() + "_" + name + ".png"));
     }
@@ -35,7 +34,11 @@ public abstract class Card {
     }
 
     public void drawCard(Graphics g) {
-        g.drawImage(image.getImage(), Game.camera.getX() + x, Game.camera.getY() + y, image.getIconWidth(), image.getIconHeight(), null);
+        g.drawImage(image.getImage(), Game.camera.getX() + x, Game.camera.getY() + y, Variables.cardX, Variables.cardY, null);
+    }
+
+    public void drawCard(Graphics g, int x, int y) {
+        g.drawImage(image.getImage(), x, y, Variables.cardX, Variables.cardY, null);
     }
 
     public Card setName(String name) {
